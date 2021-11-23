@@ -75,6 +75,20 @@ function MyWork() {
         code!</a>
         </button>
       </div>
+      <div class="management-app card col lg6 m6 s12">
+        <h6>Workday Scheduler</h6>
+        <img src="assets\Workday-Scheduler.JPG" alt="Image of Workday Scheduler"
+          class="picture-format">
+        <button class ="card-action app-link">
+        <a href="https://kiri-smith.github.io/work-day-scheduler/" target="_blank"
+        class ="big-link">Explore the App!</a>
+        </button>
+        <button class ="card-action app-link">
+        <a href="https://github.com/kiri-smith/work-day-scheduler" target="_blank" class ="big-link">View
+        the
+        code!</a>
+        </button>
+      </div>
     </div>
   );
 }

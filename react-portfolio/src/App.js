@@ -3,7 +3,9 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import Card from './components/Card';
+import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
+import MyWork from './components/MyWork';
 
 function App() {
   return (
@@ -34,9 +36,14 @@ function App() {
     <div>
       <Header />
       <Navbar />
-      <Card />
-      <Card />
-      <Card />
+      <AboutMe />
+      <MyWork />
+      <MyWork />
+      <MyWork />
+      <MyWork />
+      <MyWork />
+      <MyWork />
+      <Footer />
     </div>
   );
 }

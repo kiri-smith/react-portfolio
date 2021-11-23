@@ -17,7 +17,7 @@ function Footer() {
                 </nav>
             </div>
         </footer>
-    )
+    );
 }
 
 export default Footer;

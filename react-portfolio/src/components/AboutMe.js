@@ -61,7 +61,7 @@ function AboutMe() {
                 </div>
             </main>
         </body>
-    )
+    );
 }
 
 export default AboutMe;

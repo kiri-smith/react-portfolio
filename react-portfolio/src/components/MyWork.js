@@ -19,5 +19,43 @@ function MyWork() {
         code!</a>
         </button>
       </div>
+      <div class="drink-app card col lg6 m6 s12">
+        <h6>Rank-A-Drank: A Five-Star App for Drink Suggestions</h6>
+        <img src="assets\Drink-Rating-App.JPG" alt="Image of Drink Rating App" class="picture-format">
+        <button class ="card-action app-link">
+        <a href="https://amackenzie26.github.io/drink-rating-app/" target="_blank"
+        class ="big-link">Explore
+        the App!</a>
+        </button>
+        <button class ="card-action app-link">
+        <a href="https://github.com/kiri-smith/drink-rating-app" target="_blank" class ="big-link">View
+        the
+        code!</a>
+        </button>
+      </div>
+      <div class="management-app card col lg6 m6 s12">
+        <h6>Employee Management System</h6>
+        <img src="assets\Employee-Management-System.JPG" alt="Image of Employee Management System"
+          class="picture-format">
+        <button class ="card-action app-link">
+        <a href="https://watch.screencastify.com/v/utDIFIbYTvfHSGlBOETn" target="_blank"
+        class ="big-link">App Demo</a>
+        </button>
+        <button class ="card-action app-link">
+        <a href="https://github.com/kiri-smith/employee-tracker" target="_blank" class ="big-link">View
+        the
+        code!</a>
+        </button>
+      </div>
+      <div class="see-more card col lg6 m6 s12">
+        <img src="assets\Github.PNG" alt="Image of Employee Management System" class="picture-format">
+        <button class ="card-action first-link project-images">
+        <a href="https://github.com/kiri-smith" target="_blank" class ="big-link">View My Github
+        Repositories!</a>
+        </button>
+      </div>
+    </div>
+  );
+}
 
-      export default Card;
+export default MyWork;

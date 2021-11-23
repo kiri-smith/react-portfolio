@@ -8,7 +8,7 @@ import '../styles/App.css';
 import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
 
 
-export default function PortfolioContainer() {
+export default function Portfolio() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
 
     const renderPage = () => {
@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
         <div>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
-            <Footer />
+            <Footer currentPage={currentPage} />
         </div>
     );
 }

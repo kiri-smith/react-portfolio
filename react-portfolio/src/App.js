@@ -30,7 +30,7 @@ function App() {
 
 
 
-// In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
+// render Header, Navbar, 6 instances of MyWork, and Footer
 function App() {
   return (
     <div>

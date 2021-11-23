@@ -29,17 +29,12 @@ function App() {
 
 
 
-// render Header, Navbar, 6 instances of MyWork, and Footer
+// render Header, Navbar, MyWork, and Footer
 function App() {
   return (
     <div>
       <Header />
       <AboutMe />
-      <MyWork />
-      <MyWork />
-      <MyWork />
-      <MyWork />
-      <MyWork />
       <MyWork />
       <Footer />
     </div>

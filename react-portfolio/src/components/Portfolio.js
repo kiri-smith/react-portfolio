@@ -4,7 +4,8 @@ import AboutMe from './AboutMe';
 import MyWork from './MyWork';
 import ContactMe from './ContactMe';
 import Footer from './Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/App.css';
+import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
 
 
 export default function PortfolioContainer() {

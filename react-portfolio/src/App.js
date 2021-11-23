@@ -1,7 +1,6 @@
 //import logo from './logo.svg';
 //import './App.css';
 import React from 'react';
-import Navbar from './components/Navbar';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
@@ -35,7 +34,6 @@ function App() {
   return (
     <div>
       <Header />
-      <Navbar />
       <AboutMe />
       <MyWork />
       <MyWork />

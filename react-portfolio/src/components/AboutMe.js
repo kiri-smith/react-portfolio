@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import Picture from "../assets/Picture.jpg"
 import '../styles/App.css';
 import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
 
@@ -15,7 +16,7 @@ function AboutMe() {
                 <div class ="me-card">
                 <div class ="card row intro">
                 <div class ="card-image col lg2 m3 s12">
-                <img src="assets\Picture.jpg" alt="Image of Kiri Smith" id="me">
+                <img src={Picture} alt="Image of Kiri Smith" id="me">
                 </div>
 
                 <div class ="card-stacked col lg10 m9 s12">

@@ -1,4 +1,10 @@
 import React from 'react';
+import travelPlanner from "../assets/Travel-Planner.JGP"
+import drinkRater from "../assets/Travel-Planner.JPG"
+import managementSystem from "../assets\Employee-Management-System.JPG"
+import noteTaker from "../assets\Note-Taker.JPG"
+import readmeGenerator from "../assets\README-Generator.JPG"
+import workdayScheduler from "../assets\Workday-Scheduler.JPG"
 import '../styles/App.css';
 import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
 
@@ -8,7 +14,7 @@ function MyWork() {
       <h3>Showcased Projects</h3>
       <div class="travel-app card col lg6 m6 s12">
         <h6>Traveleeze: Where Traveling's A Breeze</h6>
-        <img src="assets\Travel-Planner.PNG" alt="Image of Traveleeze App" class="picture-format">
+        <img src={travelPlanner} alt="Image of Traveleeze App" class="picture-format">
         <button class ="card-action first-link project-images">
         <a href="https://evening-fjord-31070.herokuapp.com/login" target="_blank"
         class ="big-link">Explore
@@ -21,7 +27,7 @@ function MyWork() {
       </div>
       <div class="drink-app card col lg6 m6 s12">
         <h6>Rank-A-Drank: A Five-Star App for Drink Suggestions</h6>
-        <img src="assets\Drink-Rating-App.JPG" alt="Image of Drink Rating App" class="picture-format">
+        <img src={drinkRater} alt="Image of Drink Rating App" class="picture-format">
         <button class ="card-action app-link">
         <a href="https://amackenzie26.github.io/drink-rating-app/" target="_blank"
         class ="big-link">Explore
@@ -35,7 +41,7 @@ function MyWork() {
       </div>
       <div class="management-app card col lg6 m6 s12">
         <h6>Employee Management System</h6>
-        <img src="assets\Employee-Management-System.JPG" alt="Image of Employee Management System"
+        <img src={managementSystem} alt="Image of Employee Management System"
           class="picture-format">
         <button class ="card-action app-link">
         <a href="https://watch.screencastify.com/v/utDIFIbYTvfHSGlBOETn" target="_blank"
@@ -49,7 +55,7 @@ function MyWork() {
       </div>
       <div class="management-app card col lg6 m6 s12">
         <h6>Note Taker</h6>
-        <img src="assets\Note-Taker.JPG" alt="Image of Note Taker App"
+        <img src={noteTaker} alt="Image of Note Taker App"
           class="picture-format">
         <button class ="card-action app-link">
         <a href="https://ksmith-notetaker.herokuapp.com/" target="_blank"
@@ -63,7 +69,7 @@ function MyWork() {
       </div>
       <div class="management-app card col lg6 m6 s12">
         <h6>README Generator</h6>
-        <img src="assets\README-Generator.JPG" alt="Image of README Generator App"
+        <img src={readmeGenerator} alt="Image of README Generator App"
           class="picture-format">
         <button class ="card-action app-link">
         <a href="https://watch.screencastify.com/v/82NR27gUrYBzt9ccy5Wj" target="_blank"
@@ -77,7 +83,7 @@ function MyWork() {
       </div>
       <div class="management-app card col lg6 m6 s12">
         <h6>Workday Scheduler</h6>
-        <img src="assets\Workday-Scheduler.JPG" alt="Image of Workday Scheduler"
+        <img src={workdayScheduler} alt="Image of Workday Scheduler"
           class="picture-format">
         <button class ="card-action app-link">
         <a href="https://kiri-smith.github.io/work-day-scheduler/" target="_blank"

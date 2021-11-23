@@ -53,10 +53,24 @@ function MyWork() {
           class="picture-format">
         <button class ="card-action app-link">
         <a href="https://ksmith-notetaker.herokuapp.com/" target="_blank"
-        class ="big-link">Deployed App</a>
+        class ="big-link">Explore the App!</a>
         </button>
         <button class ="card-action app-link">
         <a href="https://github.com/kiri-smith/note-taker" target="_blank" class ="big-link">View
+        the
+        code!</a>
+        </button>
+      </div>
+      <div class="management-app card col lg6 m6 s12">
+        <h6>README Generator</h6>
+        <img src="assets\README-Generator.JPG" alt="Image of README Generator App"
+          class="picture-format">
+        <button class ="card-action app-link">
+        <a href="https://watch.screencastify.com/v/82NR27gUrYBzt9ccy5Wj" target="_blank"
+        class ="big-link">App Demo</a>
+        </button>
+        <button class ="card-action app-link">
+        <a href="https://github.com/kiri-smith/readme-generator" target="_blank" class ="big-link">View
         the
         code!</a>
         </button>

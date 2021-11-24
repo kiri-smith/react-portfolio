@@ -8,14 +8,14 @@ import '../styles/App.css';
 import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
 
 
-export default function Portfolio() {
+function Portfolio() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
 
     const renderPage = () => {
         if (currentPage === 'AboutMe') {
             return <AboutMe />;
         }
-        if (currentPage === 'My Work') {
+        if (currentPage === 'MyWork') {
             return <MyWork />;
         }
         if (currentPage === 'ContactMe') {
@@ -32,3 +32,5 @@ export default function Portfolio() {
         </div>
     );
 }
+
+export default Portfolio;

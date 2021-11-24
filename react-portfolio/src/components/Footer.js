@@ -7,7 +7,6 @@ function Footer() {
         <footer>
             <div class="contact-content">
                 <nav class="nav-wrapper nav-deets">
-                    <a href="#header" class="my-name">Kiri Smith</a>
                     <ul class="right">
                         <li><a href="https://www.linkedin.com/in/kiri-lynne-smith/" target="_blank" rel="noreferrer"
                             class="mid-place">LinkedIn</a></li>

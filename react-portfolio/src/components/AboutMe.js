@@ -1,16 +1,12 @@
 import React from 'react';
-//import ReactDOM from 'react-dom';
-//import App from './App';
 import Picture from "../assets/Picture.jpg";
 import '../styles/App.css';
-import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
+//import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
 
-//ReactDOM.render(<App />, document.getElementById('root'));
 
 function AboutMe() {
     return (
-        <body class='main-container'>
-
+        <div class='main-container'>
             <main>
                 <div class="about-me container">
                     <div class="me-card">
@@ -62,7 +58,7 @@ function AboutMe() {
                         portfolio as I create more web applications.</p>
                 </div>
             </main>
-        </body>
+        </div>
     );
 }
 

@@ -1,12 +1,12 @@
 import React from 'react';
-import travelPlanner from "../assets/Travel-Planner.JGP"
-import drinkRater from "../assets/Travel-Planner.JPG"
+import travelPlanner from "../assets/Travel-Planner.png"
+import drinkRater from "../assets/Drink-Rating-App.JPG"
 import managementSystem from "../assets/Employee-Management-System.JPG"
 import noteTaker from "../assets/Note-Taker.JPG"
 import readmeGenerator from "../assets/README-Generator.JPG"
 import workdayScheduler from "../assets/Workday-Scheduler.JPG"
 import '../styles/App.css';
-import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
+//import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
 
 function MyWork() {
   return (

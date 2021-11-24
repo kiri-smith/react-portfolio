@@ -5,7 +5,7 @@ import MyWork from './MyWork';
 import ContactMe from './ContactMe';
 import Footer from './Footer';
 import '../styles/App.css';
-import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
+//import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
 
 
 function Portfolio() {

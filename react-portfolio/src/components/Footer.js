@@ -9,10 +9,10 @@ function Footer() {
                 <nav class="nav-wrapper nav-deets">
                     <a href="#header" class="my-name">Kiri Smith</a>
                     <ul class="right">
-                        <li><a href="https://www.linkedin.com/in/kiri-lynne-smith/" target="_blank"
+                        <li><a href="https://www.linkedin.com/in/kiri-lynne-smith/" target="_blank" rel="noreferrer"
                             class="mid-place">LinkedIn</a></li>
-                        <li><a href="https://github.com/kiri-smith" target="_blank" class="mid-place">GitHub</a></li>
-                        <li><a href="https://medium.com/@kirilynne" target="_blank" class="mid-place">Blog</a></li>
+                        <li><a href="https://github.com/kiri-smith" target="_blank" rel="noreferrer" class="mid-place">GitHub</a></li>
+                        <li><a href="https://medium.com/@kirilynne" target="_blank" rel="noreferrer" class="mid-place">Blog</a></li>
                     </ul>
                 </nav>
             </div>

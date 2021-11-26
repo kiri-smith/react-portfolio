@@ -5,16 +5,24 @@ import '../styles/App.css';
 function Footer() {
     return (
         <footer>
-            <div class="contact-content">
-                <nav class="nav-wrapper nav-deets">
-                    <ul class="right">
-                        <li><a href="https://www.linkedin.com/in/kiri-lynne-smith/" target="_blank" rel="noreferrer"
-                            class="mid-place">LinkedIn</a></li>
-                        <li><a href="https://github.com/kiri-smith" target="_blank" rel="noreferrer" class="mid-place">GitHub</a></li>
-                        <li><a href="https://medium.com/@kirilynne" target="_blank" rel="noreferrer" class="mid-place">Blog</a></li>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://www.linkedin.com/in/kiri-lynne-smith/" target="_blank" rel="noreferrer">LinkedIn<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://github.com/kiri-smith" target="_blank" rel="noreferrer">GitHub<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://medium.com/@kirilynne" target="_blank" rel="noreferrer">Blog</a>
+                        </li>
                     </ul>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </footer>
     );
 }

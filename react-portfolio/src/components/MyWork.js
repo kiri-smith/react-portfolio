@@ -10,9 +10,9 @@ import '../styles/App.css';
 
 function MyWork() {
   return (
-    <div class="row card-stacked work card" id="showcase">
+    <div class="card" id="showcase">
       <h3>Showcased Projects</h3>
-      <div class="travel-app card col lg6 m6 s12">
+      <div class="travel-app card">
         <h6>Traveleeze: Where Traveling's A Breeze</h6>
         <img src={travelPlanner} alt="Traveleeze App" class="picture-format"></img>
         <button class="card-action first-link project-images">

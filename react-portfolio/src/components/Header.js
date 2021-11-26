@@ -12,19 +12,19 @@ function Header({ currentPage, handlePageChange }) {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
+            <li class="nav-item active my-name">
               <a class="nav-link" href="#about" onClick={() => handlePageChange('AboutMe')} className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>Kiri Smith<span class="sr-only"></span></a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item active prompt">
               <a class="nav-link" href="#about" onClick={() => handlePageChange('AboutMe')} className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>About Me<span class="sr-only"></span></a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item active prompt">
               <a class="nav-link" href="#showcase" onClick={() => handlePageChange('MyWork')} className={currentPage === 'MyWork' ? 'nav-link active' : 'nav-link'}>Portfolio of Work</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item active prompt">
               <a class="nav-link" href="#contact" onClick={() => handlePageChange('ContactMe')} className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}>Contact Me</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item active prompt">
               <a class="nav-link" href="https://docs.google.com/document/d/1SzBb4VCiBd2CpTjTw_3kWCL1-35twNHfK3aI_qe2C9A/edit?usp=sharing"
                 target="_blank" rel="noreferrer">Resumé</a>
             </li>

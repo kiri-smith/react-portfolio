@@ -8,20 +8,16 @@ const styles = {
         width: "350px",
         height: "500px",
     },
-    content: {
-
-    }
-
 }
 
 function AboutMe() {
     return (
-        <div class="container">
+        <div class="card">
             <div class="row">
                 <div class="col-3">
                     <img src={Picture} class="pic" style={styles.pic} alt="Kiri Smith" id="me"></img>
                 </div>
-                <div class="col-9 content" style={styles.content}>
+                <div class="col-8 content">
                     <p> I live in Rochester, NY where I attended Nazareth College, receiving a BA in Mathematics and Childhood-Middle Childhood Education.I then
                         completed my Master's Degree in Inclusive Education at Nazareth College in 2012. I moved to
                         Alexandria, VA where I began teaching middle school math as a special education teacher at

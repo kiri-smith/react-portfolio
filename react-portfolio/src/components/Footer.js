@@ -11,13 +11,13 @@ function Footer() {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
+                        <li class="nav-item active prompt">
                             <a class="nav-link" href="https://www.linkedin.com/in/kiri-lynne-smith/" target="_blank" rel="noreferrer">LinkedIn<span class="sr-only"></span></a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item active prompt">
                             <a class="nav-link" href="https://github.com/kiri-smith" target="_blank" rel="noreferrer">GitHub<span class="sr-only"></span></a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item active prompt">
                             <a class="nav-link" href="https://medium.com/@kirilynne" target="_blank" rel="noreferrer">Blog</a>
                         </li>
                     </ul>

@@ -1,163 +1,24 @@
-a:hover {
-  opacity: 0.8;
-}
-
-.main-container{
-  font-family: Georgia, 'Times New Roman', Times, serif
-}
-
-.nav-deets{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: plum;
-}
-
-.my-name{
-  color: black !important;
-  font-size: 50px !important;
-}
-
-.mid-place{
+.content{
+  color: plum;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.main-container{
-  background-color: gray;
-}
-
-.intro{
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.text-one{
-text-align: center;
-font-size: 30px;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.text-two{
-  text-align: center;
-  font-size: 24px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.text-four{
-  text-align: center;
-  font-size: 18px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-.background-card{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
-}
-
-.picture-format{
-  width: 100%;
-}
-
-.big-link{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-  color: black !important;
-}
-
-.contact-content{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: plum !important;   
-  color: white !important;
 }
 
-
-
-@media screen and (max-width: 768px) {
-
-  .nav-specs{
-      display: block !important;
-      margin-left: auto !important;
-      margin-right: auto !important; 
-      background-color: plum;
-  }
-
-  .nav-links {
-      display: flex !important;
-      flex-direction: column !important;
-      background-color: plum;
-  }
-
-  .about-me{
-      display: flex !important;
-      flex-direction: column !important;
-  }
-
-  .intro{
-      display: flex !important;
-      justify-content: center !important;
-      align-items: center;
-      flex-direction: column !important;
-  }
-
-  .main-container{
-      background-color: plum;
-  }
-
-  .card-image{
-      display: block !important;
-      margin-left: auto !important;
-      margin-right: auto !important;
-  }
-
-  .card-stacked{
-      display: block !important;
-      margin-left: auto !important;
-      margin-right: auto !important; 
-  }
-
-  .contact-content{
-      display: flex !important;
-      flex-direction: column !important;
-  }
+.my-name{
+  color: plum !important;
+  font-size: 48px !important;
+  font-family: fantasy !important;
 }
 
-@media screen and (max-width: 576px) {
-
-  .nav-specs{
-      display: block !important;
-      margin-left: auto !important;
-      margin-right: auto !important;
-      background-color: plum;  
-  }
-  
-  .nav-links {
-      display: flex !important;
-      flex-direction: column !important;
-      background-color: plum;
-  }
-
-  .about-me{
-      display: flex !important;
-      flex-direction: column !important;
-  }
-
-  .intro{
-      display: flex !important;
-      justify-content: center !important;
-      align-items: center;
-      flex-direction: column !important;
-  }
-
-  #me{
-      margin: auto;
-  }
-
-  .main-container{
-      background-color: plum;
-  }
-
-  .contact-content{
-      display: flex !important;
-      flex-direction: column !important;
-  }
+.prompt{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

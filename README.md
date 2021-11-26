@@ -4,7 +4,7 @@ For this project, I used React to create a professional portfolio.  This portfol
 
 ## Snapshot
 
-<img src="assets/ReadSnip.JPG" alt="Screenshot of portfolio">
+<img src="react-portfolio/src/assets/ReadSnip.JPG" alt="Screenshot of portfolio">
 
 ## Built With
 
